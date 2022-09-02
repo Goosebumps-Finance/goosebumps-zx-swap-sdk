@@ -25,14 +25,18 @@ export const FACTORY_ADDRESS = '0xA2162dd03fDE5A2917D40D70ff716badc6E6092a'
 
 export const FACTORY_ADDRESS_MAP = {
   [ChainId.MAINNET]: FACTORY_ADDRESS, // mainnet
-  [ChainId.TESTNET]: '0x825901c407Ba70ddba1a189f88b4945e43407E9A' // testnet
+  [ChainId.TESTNET]: '0x825901c407Ba70ddba1a189f88b4945e43407E9A', // testnet
+  [ChainId.ETHEREUM]: '0x825901c407Ba70ddba1a189f88b4945e43407E9A', // fake TODO prince
+  [ChainId.POLYGON]: '0x825901c407Ba70ddba1a189f88b4945e43407E9A' // fake TODO prince
 }
 
 export const INIT_CODE_HASH = '0x25fc9abd249367c2b1a83eb77cb521484b8ecf6e0b2205a97a888eef6c2fd0a1'
 
 export const INIT_CODE_HASH_MAP = {
   [ChainId.MAINNET]: INIT_CODE_HASH,
-  [ChainId.TESTNET]: '0x25fc9abd249367c2b1a83eb77cb521484b8ecf6e0b2205a97a888eef6c2fd0a1' // testnet
+  [ChainId.TESTNET]: '0x25fc9abd249367c2b1a83eb77cb521484b8ecf6e0b2205a97a888eef6c2fd0a1', // testnet
+  [ChainId.ETHEREUM]: '0x25fc9abd249367c2b1a83eb77cb521484b8ecf6e0b2205a97a888eef6c2fd0a1', // fake TODO prince
+  [ChainId.POLYGON]: '0x25fc9abd249367c2b1a83eb77cb521484b8ecf6e0b2205a97a888eef6c2fd0a1' // fake TODO prince
 }
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
