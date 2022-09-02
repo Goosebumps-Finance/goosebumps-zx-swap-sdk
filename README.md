@@ -1,6 +1,6 @@
-# Goosebumps SDK
+# Goosebumps Zx-SDK
 
-Forked from the [Pancakeswap SDK](https://github.com/pancakeswap/pancake-swap-sdk/commit/d2903d4c136cd11eeda0f3f874a838632fd75704).
+Forked from the [Goosebumps SDK](https://github.com/CryptoSnowPrince/goosebumps-swap-sdk/commit/c03574efe8f6976f9d7aa578899fb7944c597a6f).
 
 You can refer to the Uniswap SDK documentation [uniswap.org](https://docs.uniswap.org/sdk/2.0.0/).
 
@@ -11,13 +11,13 @@ To run the tests, follow these steps. You must have at least node v10 and [yarn]
 First clone the repository:
 
 ```sh
-git clone https://github.com/CryptoSnowPrince/goosebumps-swap-sdk.git
+git clone https://github.com/CryptoSnowPrince/goosebumps-zx-swap-sdk.git
 ```
 
-Move into the goosebumps-swap-sdk working directory
+Move into the goosebumps-zx-swap-sdk working directory
 
 ```sh
-cd goosebumps-swap-sdk/
+cd goosebumps-zx-swap-sdk/
 ```
 
 Install dependencies
